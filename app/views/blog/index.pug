@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1= title
+  //- each post in posts
+  //-   div.post
+  //-     h3.post-title
+  //-       = post.title
+  //-     div.post-abstract
+  //-       = post.content
+  //-     .post-meta
+  //-       span.post-created
+  //-         | 发布时间
+  //-         = post.created
+  //-       span.post-author
+  //-         | 作者
+  //-         = post.author.name
+  //-       span.post-category
+  //-         | 分类
+  //-         = post.category.slug
+  //-       span.post-comment
+  //-         | 评论
+  //-         = post.comments.length
+  //-       span.post-favorite
+  //-         | 被赞
+  //-         = post.meta.favourates
+  //-       span.post-link
+  //-         a(target="_blank") 查看原文

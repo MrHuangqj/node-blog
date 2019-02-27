@@ -1,0 +1,22 @@
+{
+  "name": "hello-blog",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Huangqj <1733878114@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4",
+    "Font-Awesome": "^4.7.0"
+  }
+}
